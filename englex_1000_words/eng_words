@@ -1,0 +1,1358 @@
+[
+  {
+    "word": "engineering",
+    "translate": "инженерное дело"
+  },
+  {
+    "word": "mechanical engineering",
+    "translate": "инженерная механика, машиностроение, проектирование механических систем"
+  },
+  {
+    "word": "electrical engineering",
+    "translate": "электромеханика, техническое проектирование электросхем"
+  },
+  {
+    "word": "civil engineering",
+    "translate": "проектирование и строительство гражданских объектов"
+  },
+  {
+    "word": "structural engineering",
+    "translate": "проектирование промышленных сооружений / строительное проектирование"
+  },
+  {
+    "word": "biomedical engineering",
+    "translate": "биомедицинская инженерия"
+  },
+  {
+    "word": "chemical engineering",
+    "translate": "химическая инженерия"
+  },
+  {
+    "word": "software engineering",
+    "translate": "программная инженерия"
+  },
+  {
+    "word": "systems engineering",
+    "translate": "системная инженерия"
+  },
+  {
+    "word": "an engineer",
+    "translate": "инженер, конструктор"
+  },
+  {
+    "word": "an engineering technician",
+    "translate": "инженерно-технический работник"
+  },
+  {
+    "word": "design information",
+    "translate": "проектная информация"
+  },
+  {
+    "word": "a design solution",
+    "translate": "проектно-техническое решение"
+  },
+  {
+    "word": "an item",
+    "translate": "деталь, изделие, единица"
+  },
+  {
+    "word": "size",
+    "translate": "размер"
+  },
+  {
+    "word": "scale",
+    "translate": "маштаб"
+  },
+  {
+    "word": "CAD /kæd/ (computer-aided design)",
+    "translate": "система автоматизированного проектирования"
+  },
+  {
+    "word": "specifications",
+    "translate": "спецификации"
+  },
+  {
+    "word": "technical requirements",
+    "translate": "технические характеристики, требования"
+  },
+  {
+    "word": "to overdesign",
+    "translate": "проектировать с излишним запасом прочности"
+  },
+  {
+    "word": "a drawing (сокращенно dwg)",
+    "translate": "чертеж, схема"
+  },
+  {
+    "word": "a blueprint",
+    "translate": "синька (копия чертежа)"
+  },
+  {
+    "word": "a detail drawing",
+    "translate": "детализированный чертеж"
+  },
+  {
+    "word": "a general arrangement drawing",
+    "translate": "общий компоновочный чертеж, общая схема"
+  },
+  {
+    "word": "a preliminary drawing",
+    "translate": "эскиз, предварительный чертеж"
+  },
+  {
+    "word": "a working drawing",
+    "translate": "черновая схема, рабочий чертеж"
+  },
+  {
+    "word": "schematics",
+    "translate": "схематический чертеж, план"
+  },
+  {
+    "word": "a drawing board",
+    "translate": "планшет, чертежная доска"
+  },
+  {
+    "word": "to draw up a drawing",
+    "translate": "составить чертеж"
+  },
+  {
+    "word": "a measurement",
+    "translate": "измерение, вычисление, система мер"
+  },
+  {
+    "word": "calculations",
+    "translate": "расчеты, вычисления"
+  },
+  {
+    "word": "dimensions (сокращенно dims)",
+    "translate": "размеры"
+  },
+  {
+    "word": "linear dimensions",
+    "translate": "линейные размеры"
+  },
+  {
+    "word": "a direction",
+    "translate": "направление"
+  },
+  {
+    "word": "a tape measure",
+    "translate": "мерная рулетка"
+  },
+  {
+    "word": "a theodolite",
+    "translate": "угломер"
+  },
+  {
+    "word": "an angle",
+    "translate": "угол"
+  },
+  {
+    "word": "a degree",
+    "translate": "градус"
+  },
+  {
+    "word": "a grade",
+    "translate": "метрический градус"
+  },
+  {
+    "word": "diameter",
+    "translate": "диаметр"
+  },
+  {
+    "word": "a radius (plural: radii)",
+    "translate": "радиус"
+  },
+  {
+    "word": "circumference",
+    "translate": "периметр, длина окружности"
+  },
+  {
+    "word": "a constant",
+    "translate": "константа"
+  },
+  {
+    "word": "a surface",
+    "translate": "поверхность"
+  },
+  {
+    "word": "a face",
+    "translate": "лицевая поверхность"
+  },
+  {
+    "word": "a circle",
+    "translate": "круг"
+  },
+  {
+    "word": "a concentric circle",
+    "translate": "концентрическая окружность"
+  },
+  {
+    "word": "a curved line",
+    "translate": "кривая линия"
+  },
+  {
+    "word": "an extremity",
+    "translate": "крайняя точка"
+  },
+  {
+    "word": "a span",
+    "translate": "расстояние между объектами"
+  },
+  {
+    "word": "distance",
+    "translate": "расстояние"
+  },
+  {
+    "word": "length",
+    "translate": "длина"
+  },
+  {
+    "word": "height",
+    "translate": "высота"
+  },
+  {
+    "word": "width",
+    "translate": "ширина"
+  },
+  {
+    "word": "thickness",
+    "translate": "толщина"
+  },
+  {
+    "word": "area",
+    "translate": "площадь"
+  },
+  {
+    "word": "cross-sectional area",
+    "translate": "площадь сечения"
+  },
+  {
+    "word": "surface area",
+    "translate": "площадь поверхности"
+  },
+  {
+    "word": "mass",
+    "translate": "масса"
+  },
+  {
+    "word": "weight",
+    "translate": "вес"
+  },
+  {
+    "word": "volume",
+    "translate": "объем"
+  },
+  {
+    "word": "density",
+    "translate": "плотность"
+  },
+  {
+    "word": "external",
+    "translate": "внешний"
+  },
+  {
+    "word": "internal",
+    "translate": "внутренний"
+  },
+  {
+    "word": "horizontal",
+    "translate": "горизонтальный"
+  },
+  {
+    "word": "vertical",
+    "translate": "вертикальный"
+  },
+  {
+    "word": "flat",
+    "translate": "плоский"
+  },
+  {
+    "word": "smooth",
+    "translate": "гладкий, ровный"
+  },
+  {
+    "word": "inclined",
+    "translate": "наклонный, под углом"
+  },
+  {
+    "word": "to measure",
+    "translate": "измерять"
+  },
+  {
+    "word": "to increase",
+    "translate": "увеличивать"
+  },
+  {
+    "word": "to decrease",
+    "translate": "уменьшать"
+  },
+  {
+    "word": "dimensional accuracy",
+    "translate": "точность измерений"
+  },
+  {
+    "word": "precision",
+    "translate": "точность"
+  },
+  {
+    "word": "a deviation",
+    "translate": "отклонение"
+  },
+  {
+    "word": "tolerance",
+    "translate": "погрешность"
+  },
+  {
+    "word": "a rounding error",
+    "translate": "ошибка при округлении"
+  },
+  {
+    "word": "performance gap",
+    "translate": "неравенство в показателях"
+  },
+  {
+    "word": "tight tolerance = close tolerance",
+    "translate": "малое допустимое отклонение"
+  },
+  {
+    "word": "loose tolerance",
+    "translate": "допустимая в широких пределах погрешность"
+  },
+  {
+    "word": "negligible",
+    "translate": "несущественный"
+  },
+  {
+    "word": "imprecise/inaccurate",
+    "translate": "неточный"
+  },
+  {
+    "word": "permissible",
+    "translate": "допустимый"
+  },
+  {
+    "word": "within tolerance",
+    "translate": "в пределах допустимых значений"
+  },
+  {
+    "word": "outside tolerance",
+    "translate": "за пределами допустимых значений"
+  },
+  {
+    "word": "approximately",
+    "translate": "приблизительно"
+  },
+  {
+    "word": "to vary",
+    "translate": "различаться"
+  },
+  {
+    "word": "to round up or down",
+    "translate": "округлить в большую или меньшую сторону"
+  },
+  {
+    "word": "locating",
+    "translate": "расположение"
+  },
+  {
+    "word": "a centreline",
+    "translate": "осевая линия, линия по центру"
+  },
+  {
+    "word": "an offset",
+    "translate": "смещение"
+  },
+  {
+    "word": "centre-to-centre",
+    "translate": "расстояние между центрами/осями"
+  },
+  {
+    "word": "a reference point",
+    "translate": "точка отсчета, начальная точка"
+  },
+  {
+    "word": "a grid",
+    "translate": "сетка"
+  },
+  {
+    "word": "a gridline",
+    "translate": "линия сетки"
+  },
+  {
+    "word": "a diagonal",
+    "translate": "диагональ"
+  },
+  {
+    "word": "perpendicular to",
+    "translate": "перпендикулярный к"
+  },
+  {
+    "word": "to set out",
+    "translate": "отметить положение"
+  },
+  {
+    "word": "to locate",
+    "translate": "определить местоположение, разместить"
+  },
+  {
+    "word": "to run parallel with",
+    "translate": "располагаться параллельно"
+  },
+  {
+    "word": "to intersect at",
+    "translate": "пересекаться в"
+  },
+  {
+    "word": "an element",
+    "translate": "элемент"
+  },
+  {
+    "word": "a compound",
+    "translate": "соединение"
+  },
+  {
+    "word": "chemical composition",
+    "translate": "химический состав"
+  },
+  {
+    "word": "constituents",
+    "translate": "составляющие"
+  },
+  {
+    "word": "a chemical reaction",
+    "translate": "химическая реакция"
+  },
+  {
+    "word": "a mixture",
+    "translate": "смесь"
+  },
+  {
+    "word": "an alloy",
+    "translate": "примесь"
+  },
+  {
+    "word": "a coefficient",
+    "translate": "коэффициент"
+  },
+  {
+    "word": "non-metals (carbon, silicon)",
+    "translate": "неметаллы (уголь, кремний)"
+  },
+  {
+    "word": "metals (iron, copper):\nferrous metals\nnon-ferrous metals",
+    "translate": "металлы (железо, медь):\nметаллы, содержащие железо\nметаллы, не содержащие железо"
+  },
+  {
+    "word": "a precious metal",
+    "translate": "драгоценный металл"
+  },
+  {
+    "word": "raw materials:\npowder, fine particles\na pellet\na fibre",
+    "translate": "сырьевые материалы:\nпорошок, высокодисперсные частицы\nгранула\nволокно"
+  },
+  {
+    "word": "steel:\ncarbon steel\nalloy steel\nstainless steel\ntool steel\nhigh-speed steel",
+    "translate": "сталь:\nуглеродистая сталь\nлегированная сталь\nнержавеющая сталь\nинструментальная сталь\nбыстрорежущая сталь"
+  },
+  {
+    "word": "a composite material",
+    "translate": "композитный материал"
+  },
+  {
+    "word": "a reinforcing material",
+    "translate": "укрепляющий материал"
+  },
+  {
+    "word": "a matrix",
+    "translate": "вяжущее вещество, раствор"
+  },
+  {
+    "word": "carbon fibre",
+    "translate": "углеродное волокно"
+  },
+  {
+    "word": "fibreglass",
+    "translate": "стеклопластик"
+  },
+  {
+    "word": "molten",
+    "translate": "расплавленный, жидкий"
+  },
+  {
+    "word": "to disintegrate",
+    "translate": "разделять на части"
+  },
+  {
+    "word": "to flow",
+    "translate": "течь"
+  },
+  {
+    "word": "to cover",
+    "translate": "покрывать"
+  },
+  {
+    "word": "to melt",
+    "translate": "плавить"
+  },
+  {
+    "word": "to rust",
+    "translate": "ржаветь"
+  },
+  {
+    "word": "a natural polymer",
+    "translate": "природный полимер"
+  },
+  {
+    "word": "a synthetic polymer",
+    "translate": "синтетический полимер"
+  },
+  {
+    "word": "thermoplastics:\nacrylonitrile butadiene styrene (ABS)\npolycarbonate\npolyvinylchloride (PVC)",
+    "translate": "термопласты:\nакрилонитрилбутадиенстирол (АБС-пластик)\nполикарбонат\nполивинилхлорид"
+  },
+  {
+    "word": "thermosetting plastics = thermosets:\nepoxy resin\npolyimide",
+    "translate": "реактопласты:\nэпоксидная смола (резина)\nполиимид"
+  },
+  {
+    "word": "an elastomer",
+    "translate": "эластомер"
+  },
+  {
+    "word": "rubber",
+    "translate": "резина"
+  },
+  {
+    "word": "latex",
+    "translate": "каучук"
+  },
+  {
+    "word": "a mineral",
+    "translate": "минерал"
+  },
+  {
+    "word": "ceramics",
+    "translate": "керамика"
+  },
+  {
+    "word": "ore",
+    "translate": "рудный минерал"
+  },
+  {
+    "word": "an abrasive material",
+    "translate": "абразив"
+  },
+  {
+    "word": "clay",
+    "translate": "глина"
+  },
+  {
+    "word": "a kiln",
+    "translate": "печь для обжига"
+  },
+  {
+    "word": "glass:\nfloat glass\nsafety glass\ntoughened glass = tempered glass\nlaminated glass",
+    "translate": "стекло:\nлистовое стекло\nнебьющееся безосколочное стекло\nзакаленное высокопрочное стекло\nслоистое безосколочное стекло"
+  },
+  {
+    "word": "organic",
+    "translate": "органический"
+  },
+  {
+    "word": "inorganic",
+    "translate": "неорганический"
+  },
+  {
+    "word": "to anneal",
+    "translate": "закалять, обжигать"
+  },
+  {
+    "word": "concrete",
+    "translate": "бетон"
+  },
+  {
+    "word": "cement",
+    "translate": "цемент"
+  },
+  {
+    "word": "sand",
+    "translate": "песок"
+  },
+  {
+    "word": "gravel",
+    "translate": "гравий"
+  },
+  {
+    "word": "fine aggregate",
+    "translate": "мелкий заполнитель"
+  },
+  {
+    "word": "coarse aggregate",
+    "translate": "крупный заполнитель"
+  },
+  {
+    "word": "concrete mix design",
+    "translate": "подбор состава бетонной смеси"
+  },
+  {
+    "word": "batching",
+    "translate": "дозирование"
+  },
+  {
+    "word": "an additive",
+    "translate": "добавка"
+  },
+  {
+    "word": "a retarder",
+    "translate": "замедлитель схватывания (бетона)"
+  },
+  {
+    "word": "reinforced concrete",
+    "translate": "железобетон"
+  },
+  {
+    "word": "reinforcing bars",
+    "translate": "арматура"
+  },
+  {
+    "word": "formwork = shuttering",
+    "translate": "опалубка"
+  },
+  {
+    "word": "to cast concrete",
+    "translate": "укладывать бетонную смесь"
+  },
+  {
+    "word": "wood:\nhardwood\nsoftwood",
+    "translate": "древесина:\nтвердая древесина\nмягкая древесина"
+  },
+  {
+    "word": "solid wood:\ngrain\nknots /nɒts/",
+    "translate": "цельная древесина:\nузор\nсучки́"
+  },
+  {
+    "word": "engineered wood:\na particle board = chipboard and medium-density fibreboard (MDF)\na orientated strand board (OSB)\na glue-laminated section (сокращенно glulam)",
+    "translate": "композитный древесный материал:\nдревесноволокнистая плита средней плотности (МДФ/ДВП)\nориентированно-стружечная плита (ОСП)\nклееный брус"
+  },
+  {
+    "word": "plywood",
+    "translate": "фанера"
+  },
+  {
+    "word": "timber = lumber",
+    "translate": "пиломатериал"
+  },
+  {
+    "word": "a sawmill",
+    "translate": "лесопилка"
+  },
+  {
+    "word": "resin",
+    "translate": "древесная смола"
+  },
+  {
+    "word": "stress-graded",
+    "translate": "сортированный по прочности"
+  },
+  {
+    "word": "to saw",
+    "translate": "пилить"
+  },
+  {
+    "word": "material properties",
+    "translate": "свойства материалов"
+  },
+  {
+    "word": "thermal properties",
+    "translate": "термические свойства"
+  },
+  {
+    "word": "a thermal insulator",
+    "translate": "теплоизоляционный материал"
+  },
+  {
+    "word": "a coefficient of thermal expansion",
+    "translate": "коэффициент термического расширения"
+  },
+  {
+    "word": "a coefficient of linear expansion",
+    "translate": "коэффициент линейного теплового расширения"
+  },
+  {
+    "word": "tensile strength",
+    "translate": "предел прочности на разрыв"
+  },
+  {
+    "word": "compressive strength",
+    "translate": "предел прочности на сжатие"
+  },
+  {
+    "word": "deformation",
+    "translate": "деформация"
+  },
+  {
+    "word": "elongation",
+    "translate": "растяжение"
+  },
+  {
+    "word": "extension",
+    "translate": "расширение"
+  },
+  {
+    "word": "hardening",
+    "translate": "затвердевание"
+  },
+  {
+    "word": "corrosion",
+    "translate": "коррозия"
+  },
+  {
+    "word": "resistance",
+    "translate": "сопротивление"
+  },
+  {
+    "word": "elasticity",
+    "translate": "эластичность, упругость"
+  },
+  {
+    "word": "ductility",
+    "translate": "эластичность, податливость"
+  },
+  {
+    "word": "plasticity",
+    "translate": "пластичность"
+  },
+  {
+    "word": "hardness:\nscratch hardness\nindentation hardness",
+    "translate": "прочность:\nтвердость на сопротивление царапанию\nиндентометрическая твердость, твердость на вдавливание"
+  },
+  {
+    "word": "durability",
+    "translate": "срок службы, износостойкость"
+  },
+  {
+    "word": "fatigue",
+    "translate": "износ"
+  },
+  {
+    "word": "fracture toughness",
+    "translate": "изломостойкость"
+  },
+  {
+    "word": "thermal conductivity",
+    "translate": "теплопроводность"
+  },
+  {
+    "word": "stiff",
+    "translate": "твердый, неэластичный"
+  },
+  {
+    "word": "brittle",
+    "translate": "хрупкий, непрочный"
+  },
+  {
+    "word": "malleable",
+    "translate": "ковкий"
+  },
+  {
+    "word": "ductile",
+    "translate": "тягучий"
+  },
+  {
+    "word": "to conduct",
+    "translate": "проводить, пропускать"
+  },
+  {
+    "word": "to fracture",
+    "translate": "треснуть, лопнуть"
+  },
+  {
+    "word": "to resist wear",
+    "translate": "отличаться устойчивостью к износу"
+  },
+  {
+    "word": "manufacturing",
+    "translate": "производство, изготовление"
+  },
+  {
+    "word": "machining",
+    "translate": "механическая обработка, станочная обработка"
+  },
+  {
+    "word": "computer aided design (CAD) / computer aided manufacturing (CAM)",
+    "translate": "система автоматизированного проектирования / система автоматизированного производства"
+  },
+  {
+    "word": "a workpiece",
+    "translate": "деталь, заготовка"
+  },
+  {
+    "word": "a blank",
+    "translate": "заготовка"
+  },
+  {
+    "word": "blanking",
+    "translate": "вырубка заготовки"
+  },
+  {
+    "word": "drilling",
+    "translate": "сверление, бурение"
+  },
+  {
+    "word": "grinding",
+    "translate": "шлифовка, заточка"
+  },
+  {
+    "word": "punching",
+    "translate": "перфорирование"
+  },
+  {
+    "word": "cutting:\nflame-cutting\nguillotining\nplasma cutting\nlaser cutting",
+    "translate": "резка:\nгазопламенная резка\nрезка на гильотинных ножницах\nплазменная резка\nлазерная резка"
+  },
+  {
+    "word": "tools for cutting:\na machine tool\na circular saw\na band saw\na power hacksaw\na milling machine\na lathe\na waterjet\na cutting disk\nan abrasive wheel",
+    "translate": "инструменты для резки:\nметаллорежущий станок\nциркулярная пила\nленточная пила\nножовочная пила\nфрезерный станок\nтокарный станок\nустановка для водоструйной резки\nдисковый нож\nшлифовальный круг, точильное колесо"
+  },
+  {
+    "word": "swarf = chips",
+    "translate": "металлическая стружка, опилки"
+  },
+  {
+    "word": "assembly",
+    "translate": "сборка"
+  },
+  {
+    "word": "a joint",
+    "translate": "соединение, стык"
+  },
+  {
+    "word": "an edge",
+    "translate": "грань"
+  },
+  {
+    "word": "a ridge",
+    "translate": "ребро"
+  },
+  {
+    "word": "a rebate",
+    "translate": "желоб, паз"
+  },
+  {
+    "word": "a helical groove",
+    "translate": "винтовой паз, спиральный желоб"
+  },
+  {
+    "word": "a thread",
+    "translate": "винтовая резьба"
+  },
+  {
+    "word": "a tongue-and-groove joint",
+    "translate": "соединение «в шпунт»"
+  },
+  {
+    "word": "a cavity = void",
+    "translate": "полость, впадина"
+  },
+  {
+    "word": "a through hole",
+    "translate": "сквозное отверстие"
+  },
+  {
+    "word": "a blind hole",
+    "translate": "несквозное, глухое отверстие"
+  },
+  {
+    "word": "chamfered",
+    "translate": "скошенный"
+  },
+  {
+    "word": "pointed",
+    "translate": "остроконечный, заостренный"
+  },
+  {
+    "word": "proud = raised",
+    "translate": "выпуклый"
+  },
+  {
+    "word": "recessed",
+    "translate": "утопленный, установленный заподлицо"
+  },
+  {
+    "word": "toothed",
+    "translate": "зубчатый"
+  },
+  {
+    "word": "flush with",
+    "translate": "вровень с, заподлицо с"
+  },
+  {
+    "word": "to slot into",
+    "translate": "закреплять в пазу"
+  },
+  {
+    "word": "to screw into",
+    "translate": "ввинчивать"
+  },
+  {
+    "word": "to taper",
+    "translate": "сужать, сводить на конус"
+  },
+  {
+    "word": "to machine",
+    "translate": "подвергать механической обработке, обрабатывать на станке"
+  },
+  {
+    "word": "to rotate = to spin",
+    "translate": "вращать"
+  },
+  {
+    "word": "a bolt",
+    "translate": "болт"
+  },
+  {
+    "word": "a nut (здесь)",
+    "translate": "гайка"
+  },
+  {
+    "word": "a washer:\na flat washer = a plain washer\na spring washer",
+    "translate": "шайба:\nплоская шайба\nпружинная шайба"
+  },
+  {
+    "word": "a screw:\na slot head screw\na crosshead screw\na machine screw\na grub screw = a set screw",
+    "translate": "винт, шуруп:\nвинт с прямым шлицем\nвинт с крестообразным шлицем\nмелкий крепежный винт\nустановочный винт, предохранительный винт"
+  },
+  {
+    "word": "a self-tapping screw",
+    "translate": "самонарезающий винт, саморез"
+  },
+  {
+    "word": "a screw anchor",
+    "translate": "дюбель"
+  },
+  {
+    "word": "a rivet:\na solid rivet\na blind rivet = a pop rivet",
+    "translate": "заклепка:\nсплошная заклепка\nглухая заклепка, заклепка для односторонней постановки"
+  },
+  {
+    "word": "tools for fastening:\na spanner = a wrench\na hex key\na torque wrench\na screwdriver\npliers\na rivet gun",
+    "translate": "инструменты для крепежа:\nгаечный ключ\nшестигранный ключ\nдинамометрический гаечный ключ\nотвертка\nплоскогубцы\nручной инструмент для установки заклепок, заклепочник"
+  },
+  {
+    "word": "to tighten (здесь)",
+    "translate": "туго завинчивать, затягивать"
+  },
+  {
+    "word": "to loosen",
+    "translate": "ослаблять"
+  },
+  {
+    "word": "to work loose",
+    "translate": "расшататься"
+  },
+  {
+    "word": "to screw in",
+    "translate": "закручивать, ввинчивать"
+  },
+  {
+    "word": "welding:\nresistance welding\nspot welding\nseam welding\nultrasonic welding\nshielded metal arc welding (SMAW) = arc welding = stick welding\ngas welding",
+    "translate": "сварка:\nконтактная электросварка\nточечная сварка\nшовная сварка\nультразвуковая сварка\nдуговая сварка металлическим электродом\nгазовая сварка"
+  },
+  {
+    "word": "brazing",
+    "translate": "пайка тугоплавким припоем"
+  },
+  {
+    "word": "soldering",
+    "translate": "пайка мягким припоем"
+  },
+  {
+    "word": "adhesive",
+    "translate": "клеящее вещество"
+  },
+  {
+    "word": "a solvent",
+    "translate": "растворитель"
+  },
+  {
+    "word": "to weld",
+    "translate": "сваривать, заваривать"
+  },
+  {
+    "word": "to fuse",
+    "translate": "сплавлять"
+  },
+  {
+    "word": "to evaporate",
+    "translate": "испарять, испаряться"
+  },
+  {
+    "word": "energy:\nkinetic energy\nthermal energy\nelectrical energy\nsound energy\nlight energy\nchemical energy\nnuclear energy",
+    "translate": "энергия:\nкинетическая энергия\nтепловая энергия, термическая энергия\nэлектроэнергия\nзвуковая энергия, акустическая энергия\nсветовая энергия\nхимическая энергия\nатомная энергия, ядерная энергия"
+  },
+  {
+    "word": "energy efficiency",
+    "translate": "коэффициент полезного действия (КПД)"
+  },
+  {
+    "word": "energy source",
+    "translate": "источник энергии"
+  },
+  {
+    "word": "waste energy",
+    "translate": "потерянная энергия"
+  },
+  {
+    "word": "a joule",
+    "translate": "джоуль"
+  },
+  {
+    "word": "a watt",
+    "translate": "ватт"
+  },
+  {
+    "word": "wattage",
+    "translate": "мощность в ваттах"
+  },
+  {
+    "word": "temperature",
+    "translate": "температура"
+  },
+  {
+    "word": "heat",
+    "translate": "тепло"
+  },
+  {
+    "word": "vapour",
+    "translate": "пар"
+  },
+  {
+    "word": "degrees Celsius",
+    "translate": "градусы по Цельсию"
+  },
+  {
+    "word": "heat capacity",
+    "translate": "теплоемкость"
+  },
+  {
+    "word": "heat transfer",
+    "translate": "теплообмен, теплопередача"
+  },
+  {
+    "word": "a heating system",
+    "translate": "отопительная система"
+  },
+  {
+    "word": "a convector",
+    "translate": "радиатор отопления"
+  },
+  {
+    "word": "endothermic",
+    "translate": "эндотермический"
+  },
+  {
+    "word": "exothermic",
+    "translate": "экзотермический"
+  },
+  {
+    "word": "liquid",
+    "translate": "жидкость"
+  },
+  {
+    "word": "water supply",
+    "translate": "водоснабжение"
+  },
+  {
+    "word": "pipework",
+    "translate": "трубопроводная сеть"
+  },
+  {
+    "word": "a main",
+    "translate": "магистральная труба"
+  },
+  {
+    "word": "a drain",
+    "translate": "сточная труба, дренажная труба"
+  },
+  {
+    "word": "sewers",
+    "translate": "канализация"
+  },
+  {
+    "word": "a hose",
+    "translate": "шланг"
+  },
+  {
+    "word": "a pump",
+    "translate": "насос, помпа"
+  },
+  {
+    "word": "a turbine",
+    "translate": "турбина"
+  },
+  {
+    "word": "a valve",
+    "translate": "клапан"
+  },
+  {
+    "word": "pressure",
+    "translate": "давление"
+  },
+  {
+    "word": "a pressure gauge",
+    "translate": "прибор для измерения давления, манометр"
+  },
+  {
+    "word": "pressure differential",
+    "translate": "перепад давления"
+  },
+  {
+    "word": "fluid dynamics",
+    "translate": "динамика жидкостей и газов, гидрогазодинамика"
+  },
+  {
+    "word": "to flow",
+    "translate": "течь"
+  },
+  {
+    "word": "an engine:\na petrol engine\na diesel engine\na jet engine",
+    "translate": "двигатель:\nбензиновый двигатель\nдизельный двигатель\nреактивный двигатель"
+  },
+  {
+    "word": "an internal combustion engine",
+    "translate": "двигатель внутреннего сгорания"
+  },
+  {
+    "word": "an electric motor",
+    "translate": "электромотор"
+  },
+  {
+    "word": "thrust",
+    "translate": "реактивная движущая сила, тяга"
+  },
+  {
+    "word": "a fuel injector",
+    "translate": "инжектор топлива"
+  },
+  {
+    "word": "transmission",
+    "translate": "передача, трансмиссия"
+  },
+  {
+    "word": "a gear = a gear wheel:\na spur gear\na helical gear\na bevel gear\na crown gear\na worm gear",
+    "translate": "шестерня, зубчатое колесо:\nпрямозубая шестерня\nкосозубая шестерня\nконическая шестерня\nкоронная шестерня\nчервячная шестерня"
+  },
+  {
+    "word": "a gear train",
+    "translate": "блок шестерен, зубчатая передача"
+  },
+  {
+    "word": "a chain",
+    "translate": "цепь"
+  },
+  {
+    "word": "chain drive",
+    "translate": "цепная передача, цепной привод"
+  },
+  {
+    "word": "a wire rope",
+    "translate": "трос"
+  },
+  {
+    "word": "a crankshaft",
+    "translate": "коленчатый вал, коленвал"
+  },
+  {
+    "word": "a flywheel",
+    "translate": "маховик"
+  },
+  {
+    "word": "reciprocating motion",
+    "translate": "возвратно-поступательное движение"
+  },
+  {
+    "word": "rotary motion",
+    "translate": "вращательное движение"
+  },
+  {
+    "word": "to interlock",
+    "translate": "соединяться, сцепляться"
+  },
+  {
+    "word": "to mesh together",
+    "translate": "зацепляться, входить в зацепление"
+  },
+  {
+    "word": "current:\ndirect current (DC)\nalternating current (AC)",
+    "translate": "ток:\nпостоянный ток\nпеременный ток"
+  },
+  {
+    "word": "voltage",
+    "translate": "напряжение"
+  },
+  {
+    "word": "resistance",
+    "translate": "сопротивление"
+  },
+  {
+    "word": "an ampere",
+    "translate": "ампер"
+  },
+  {
+    "word": "an electric charge",
+    "translate": "электрический заряд"
+  },
+  {
+    "word": "a charge carrier",
+    "translate": "носитель заряда, носитель тока"
+  },
+  {
+    "word": "an electromotive force (EMF)",
+    "translate": "электродвижущая сила (ЭДС)"
+  },
+  {
+    "word": "a volt",
+    "translate": "вольт"
+  },
+  {
+    "word": "an ohm",
+    "translate": "ом"
+  },
+  {
+    "word": "a device",
+    "translate": "устройство"
+  },
+  {
+    "word": "an appliance",
+    "translate": "прибор"
+  },
+  {
+    "word": "an electrical insulator",
+    "translate": "электрический изолятор"
+  },
+  {
+    "word": "installation",
+    "translate": "установка"
+  },
+  {
+    "word": "power rating",
+    "translate": "номинальная мощность, максимально допустимая мощность"
+  },
+  {
+    "word": "electric shock",
+    "translate": "удар электрическим током, поражение электрическим током"
+  },
+  {
+    "word": "technical failure",
+    "translate": "технический сбой, неисправность"
+  },
+  {
+    "word": "electrical supply",
+    "translate": "электропитание, электроснабжение"
+  },
+  {
+    "word": "mains electricity",
+    "translate": "сетевое электричество"
+  },
+  {
+    "word": "a power grid",
+    "translate": "электросеть, энергосеть"
+  },
+  {
+    "word": "frequency",
+    "translate": "частота"
+  },
+  {
+    "word": "a hertz (Hz)",
+    "translate": "герц"
+  },
+  {
+    "word": "AC generation",
+    "translate": "генерация переменного тока"
+  },
+  {
+    "word": "field coil",
+    "translate": "электромагнитная катушка, катушка индуктивности"
+  },
+  {
+    "word": "electromagnetic induction",
+    "translate": "электромагнитная индукция"
+  },
+  {
+    "word": "a power station",
+    "translate": "электростанция"
+  },
+  {
+    "word": "a power line = a transmission line",
+    "translate": "линия электропередачи"
+  },
+  {
+    "word": "a generator",
+    "translate": "генератор"
+  },
+  {
+    "word": "a rechargeable battery",
+    "translate": "перезаряжаемая аккумуляторная батарея, аккумулятор"
+  },
+  {
+    "word": "to charge",
+    "translate": "заряжать"
+  },
+  {
+    "word": "an electric circuit",
+    "translate": "электрическая цепь"
+  },
+  {
+    "word": "a parallel circuit",
+    "translate": "параллельная цепь"
+  },
+  {
+    "word": "a series circuit",
+    "translate": "последовательная цепь"
+  },
+  {
+    "word": "a conductor",
+    "translate": "проводник"
+  },
+  {
+    "word": "a semiconductor",
+    "translate": "полупроводник"
+  },
+  {
+    "word": "a switchboard",
+    "translate": "распределительный щит"
+  },
+  {
+    "word": "switchgear",
+    "translate": "распределительное оборудование"
+  },
+  {
+    "word": "a power socket",
+    "translate": "розетка электропитания"
+  },
+  {
+    "word": "an electric wire",
+    "translate": "электрический провод, электропровод"
+  },
+  {
+    "word": "a strand",
+    "translate": "многожильный провод"
+  },
+  {
+    "word": "extra-high voltage (EHV)",
+    "translate": "сверхвысокое напряжение"
+  },
+  {
+    "word": "to earth",
+    "translate": "заземлять"
+  },
+  {
+    "word": "to switch on",
+    "translate": "включать"
+  },
+  {
+    "word": "to switch off",
+    "translate": "выключать"
+  }
+]
