@@ -7,7 +7,7 @@ import requests
 
 
 from django.core.management.base import BaseCommand
-from admin_panel.models import Appartament
+from admin_panel.models import Apartment
 
 
 InnerBlock = namedtuple('Block', 'title, price, date, url')
@@ -64,6 +64,7 @@ class AvitoParser:
         """item - soup object"""
         # Выбрать блок со ссылкой
 
+
         url_block = item.find(class_='teaser-tile teaser-tile-right').find('div', class_='desc').find('a')
         if url_block:
             url = url_block.get('href')
@@ -93,11 +94,11 @@ class AvitoParser:
         
         # create model to save all data to DB
         try:
-            p = Appartament(
-                title = title,
-                price = price_to_db,
-                date = date_to_db,
-                url = url
+            p = Apartment(
+                title=title,
+                price=price_to_db,
+                date=date_to_db,
+                url=url
             ).save()   
         except Exception as ex:
             print(ex)
@@ -154,7 +155,7 @@ class AvitoParser:
             
 
 class Command(BaseCommand):
-    """Для того, чтобы данный скрипт стал командой его нужно ОБЯЗАТЕЛЬНО обернуть в класс Command И наследоваться от BaseCommand"""
+    """Для того чтобы данный скрипт стал командой его нужно ОБЯЗАТЕЛЬНО обернуть в класс Command И наследоваться от BaseCommand"""
     help = "Парсинг квартир в аренду"
 
     def handle(self, *args: any, **options: any):

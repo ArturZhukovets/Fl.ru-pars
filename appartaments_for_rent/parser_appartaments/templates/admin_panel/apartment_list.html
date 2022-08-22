@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>worker</h1>
+<ul>
+{% for apartment in apartment_list %}
+    <li>{{ apartment.title }} | {{ apartment.date }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
