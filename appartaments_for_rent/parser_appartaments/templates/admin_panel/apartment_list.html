@@ -3,6 +3,17 @@
 {% block title %} test {% endblock %}
 
 {% block content %}
+<div class="registration">
+    {% if not user.is_authenticated %}
+    <span> <a href="#">Регистрация</a> </span> |
+    <span> <a href="#">Войти</a> </span> <br>
+    {% else %}
+    <span> <a href="#">Выйти</a> </span> |
+    <span> <a href="#">Просмотреть избранное</a> </span>
+    {% endif %}
+</div>
+
+{% include 'include/filter-panel.html'%}
 <ul class="apartment">
 {% for item in page_obj %}
 
@@ -13,7 +24,6 @@
 {% endfor %}
 
 </ul>
-{{count}}
 
 {% include 'include/paginator.html' %}
 

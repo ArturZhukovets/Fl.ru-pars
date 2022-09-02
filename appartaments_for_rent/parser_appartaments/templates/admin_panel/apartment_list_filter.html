@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %} test {% endblock %}
+
+
+{% block content %}
+
+{% include 'include/filter-panel.html'%}
+
+<ul class="apartment">
+{% for item in apartment_list %}
+
+    <li class="apartment"><a href="{{item.url}}">{{item.title}}</a> {{item.price}} {{item.val}}в мес. | {{item.date}}
+    <button class="apartment-button">Добавить</button></li>
+    <hr>
+
+{% endfor %}
+</ul>
+{% endblock %}

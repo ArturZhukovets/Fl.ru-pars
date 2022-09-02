@@ -55,3 +55,22 @@ a.off:hover {
 }
 /* PAGINATOR */
 
+
+/* filter panel */
+
+.filter-panel {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filter-panel form {margin-left: 20px;}
+
+/* filter panel */
+
+/* registration panel */
+.registration {
+    float:right;
+}
+
+/* registration panel */

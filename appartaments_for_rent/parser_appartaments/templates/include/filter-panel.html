@@ -1,0 +1,17 @@
+<div class="filter-panel">
+<form class="search" method="get" action="{% url 'filter' %}" xmlns="http://www.w3.org/1999/html">
+    <input type="text" id="search" name="search">
+    <label for="search">Поиск</label>
+    <button type="submit">Найти</button>
+</form>
+
+<form class="sort" method="get" action="#sort">
+    <label for="sort">Сортировать по:</label>
+    <select id="sort" name="sort">
+        <option value="date">дате</option>
+        <option value="price_u">цена по возрастанию</option>
+        <option value="price_d">цена по убыванию</option>
+    </select>
+    <button type="submit">Сортировать</button>
+</form>
+</div>
