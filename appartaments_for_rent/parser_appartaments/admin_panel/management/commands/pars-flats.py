@@ -21,12 +21,14 @@ class Block(InnerBlock):
 
 class AvitoParser:
     """Session - сессия запросов, которая хранит в себе промежуточное состояние (куки, локалсы, заголовки и т.д)"""
-    def __init__(self) -> None:
+    def __init__(self, clear=True) -> None:
+        if clear:
+            self.clear_storage()
         self.session = requests.Session()
         self.session.headers = {
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
             'Accept-lenguage': "ru",
-            'accept' : "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            'accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
         }
 
     def get_page(self, page:int = None):
@@ -34,7 +36,7 @@ class AvitoParser:
         У session.get Есть атрибут парамс, в который передается словарь с параметрами урл запроса """
 
         params = {
-        # serch filters   
+            # serch filters
         }
 
         if page and page > 1:
@@ -150,7 +152,14 @@ class AvitoParser:
     def strtime_to_datetime(time:str):
         to_datetime_obj = datetime.datetime.strptime(time, "%d.%m.%Y")   
         return to_datetime_obj     
-        
+
+
+    @classmethod
+    def clear_storage(cls):
+        """Очищает БД"""
+        queryset = Apartment.objects.all()
+        queryset.delete()
+
 
             
 

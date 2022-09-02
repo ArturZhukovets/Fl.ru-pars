@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>worker</h1>
-<ul>
-{% for apartment in apartment_list %}
-    <li>{{ apartment.title }} | {{ apartment.date }}</li>
-    {% endfor %}
+{% extends 'base.html' %}
+
+{% block title %} test {% endblock %}
+
+{% block content %}
+<ul class="apartment">
+{% for item in page_obj %}
+
+    <li class="apartment"><a href="{{item.url}}">{{item.title}}</a> {{item.price}} {{item.val}}в мес. | {{item.date}}
+    <button class="apartment-button">Добавить</button></li>
+    <hr>
+
+{% endfor %}
+
 </ul>
-</body>
-</html>
+{{count}}
+
+{% include 'include/paginator.html' %}
+
+{% endblock %}

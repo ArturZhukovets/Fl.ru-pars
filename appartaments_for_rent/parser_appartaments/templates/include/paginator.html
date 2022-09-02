@@ -1,0 +1,24 @@
+<!-- PAGINATOR -->
+{% if page_obj.has_other_pages %}
+<nav class="paginator">
+        {% if page_obj.has_previous %}
+        <a class="paginator_link" href="?page={{ page_obj.previous_page_number }}"><<</a>
+        {% else %}
+        <a class="paginator_link off" href=""><<</a>
+        {% endif %}
+<ul class="paginator paginator_link">
+{% for n in paginator.page_range %}
+<li class="paginator paginator_link">
+    <a class="paginator paginator_link" href="?page={{ n }}">{{ n }}</a>
+</li>
+
+{% endfor %}
+</ul>
+                {% if page_obj.has_next %}
+        <a class="paginator paginator_link" href="?page={{ page_obj.next_page_number }}">>></a>
+        {% else %}
+        <a class="paginator paginator_link off" href="">>></a>
+                {% endif %}
+
+</nav>
+{% endif %}
