@@ -5,8 +5,8 @@
 {% block content %}
 <div class="registration">
     {% if not user.is_authenticated %}
-    <span> <a href="#">Регистрация</a> </span> |
-    <span> <a href="#">Войти</a> </span> <br>
+    <span> <a href="{% url 'register' %}">Регистрация</a> </span> |
+    <span> <a href="{% url 'login' %}">Войти</a> </span> <br>
     {% else %}
     <span> <a href="#">Выйти</a> </span> |
     <span> <a href="#">Просмотреть избранное</a> </span>

@@ -1,5 +1,8 @@
-from django.shortcuts import render
-from django.views.generic import ListView, DetailView
+from django.shortcuts import render, redirect
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView, CreateView
+
+from .forms import RegisterUserForm
 from .models import Apartment
 
 
@@ -37,10 +40,21 @@ class ApartmentsFilter(ListView):
 
 
     def get_context_data(self, *, object_list=None, **kwargs):
-        context = super().get_context_data()
+        context = super().get_context_data(**kwargs)
         if self.request.GET.get('search'):
             context['value'] = self.request.GET['search']
         return context
 
+
+class RegisterUser(CreateView):
+    form_class = RegisterUserForm
+    template_name = 'admin_panel/register.html'
+    success_url = reverse_lazy('apartment_list')     # При успешной заполнении формы регистрации перенаправляет
+
+    def get_context_data(self, **kwargs):
+
+        context = super().get_context_data(**kwargs)
+
+        return context
 
 
