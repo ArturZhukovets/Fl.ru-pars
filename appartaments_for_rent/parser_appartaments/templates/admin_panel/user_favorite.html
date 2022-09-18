@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+
+{%block title%}Fav{%endblock%}
+
+{% block content %}
+
+{% include 'include/filter-panel.html'%}
+<ol>
+        {% for item in apartment_list %}
+    <li class="apartment">
+        <a class="link" href="{{item.url}}">
+            {{item.title}}
+        </a> {{item.price}} {{item.val}}в мес. | {{item.date}}
+
+        <form action="{% url 'del_from_fav' item.id %}" method="post" >
+        {% csrf_token %}
+        <button type="submit" class="apartment-button">удалить из избранного</button>
+        </form>
+    </li>
+        {% endfor %}
+</ol>
+{%endblock%}

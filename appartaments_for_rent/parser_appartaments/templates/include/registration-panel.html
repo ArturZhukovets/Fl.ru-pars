@@ -1,0 +1,9 @@
+<div class="registration">
+    {% if not user.is_authenticated %}
+    <span> <a href="{% url 'register' %}">Регистрация</a> </span> |
+    <span> <a href="{% url 'login' %}">Войти</a> </span> <br>
+    {% else %}
+    <span> <a href="{% url 'logout' %}">Выйти</a> </span> |
+    <span> <a href="{% url 'favorite' %}">Просмотреть избранное</a> </span>
+    {% endif %}
+</div>

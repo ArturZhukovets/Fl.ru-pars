@@ -1,11 +1,12 @@
+<a style="float: left; margin-right: 80px;" href="{% url 'apartment_list' %}">Главная</a>
 <div class="filter-panel">
-<form class="search" method="get" action="{% url 'filter' %}" xmlns="http://www.w3.org/1999/html">
+<form class="search" method="get">
     <input type="text" id="search" name="search">
     <label for="search">Поиск</label>
     <button type="submit">Найти</button>
 </form>
 
-<form class="sort" method="get" action="#sort">
+<form class="sort" method="get" >
     <label for="sort">Сортировать по:</label>
     <select id="sort" name="sort">
         <option value="date">дате</option>

@@ -8,8 +8,8 @@
 <form method="post">
     {% csrf_token %}
     {{form.as_p}}
-    {#% for field in form %#}
 
+    {#% for field in form %#}
 <!--    <p><label class="form-label" for="{{field.auto_id}}">{{field.label}}: </label>{{field}}</p>-->
 <!--    <div class="form-error">{{ field.errors }}</div>-->
     {#% endfor %#}

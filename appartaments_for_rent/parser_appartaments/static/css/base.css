@@ -6,10 +6,24 @@ ul.apartment {
 }
 li.apartment{
     margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .apartment-button {
     float: right;
     margin-right: 20px;
+}
+.apartment-button-unreg {
+  float: right;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer
+  margin-right: 20px;
+
+
 }
 
 /* body */
@@ -52,6 +66,9 @@ a.off {
 a.off:hover {
     color: dimgrey;
     transform: none;
+}
+a.link {
+width: 700px
 }
 /* PAGINATOR */
 

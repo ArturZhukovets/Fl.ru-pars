@@ -1,5 +1,5 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, UsernameField
 from django.contrib.auth.models import User
 
 from .models import Apartment
@@ -7,13 +7,14 @@ from .models import Apartment
 # Creating a form for admin model
 
 class ApartmentForm(forms.ModelForm):
-    """Форма на основе существующий модели, для админки"""
+    """Форма на основе существующий модели, для админки
+    Здесь прописаны поля, для редактирования."""
 
     class Meta:
         model = Apartment
-        fields = ('title', 'price', 'url')
+        fields = ('title', 'price', 'url', 'user_favorite')
         widgets = {
-            "title": forms.TextInput,
+            "title": forms.Textarea,
         }
 
 
@@ -39,5 +40,7 @@ class RegisterUserForm(UserCreationForm):
         fields = ('username', 'password1', 'email')
 
 
-
+class LoginUserForm(AuthenticationForm):
+    username = forms.CharField(label='Username', widget=forms.TextInput)
+    password = forms.CharField(label='Password', widget=forms.PasswordInput)
 

@@ -3,22 +3,23 @@
 {% block title %} test {% endblock %}
 
 {% block content %}
-<div class="registration">
-    {% if not user.is_authenticated %}
-    <span> <a href="{% url 'register' %}">Регистрация</a> </span> |
-    <span> <a href="{% url 'login' %}">Войти</a> </span> <br>
-    {% else %}
-    <span> <a href="#">Выйти</a> </span> |
-    <span> <a href="#">Просмотреть избранное</a> </span>
-    {% endif %}
-</div>
+{% include 'include/registration-panel.html' %}
 
 {% include 'include/filter-panel.html'%}
 <ul class="apartment">
 {% for item in page_obj %}
 
-    <li class="apartment"><a href="{{item.url}}">{{item.title}}</a> {{item.price}} {{item.val}}в мес. | {{item.date}}
-    <button class="apartment-button">Добавить</button></li>
+    <li class="apartment"><a class="link" href="{{item.url}}">{{item.title|truncatechars:80}}</a> {{item.price}} {{item.val}}в мес. | {{item.date}}
+
+    <form action="{% url 'add_to_favorite' item.id %}" method="post" >
+        {% csrf_token %}
+        {% if user.is_authenticated %}
+    <button type="submit" class="apartment-button">Добавить в избранное</button>
+        {% else %}
+        <button type="reset" class="apartment-button-unreg">Чтобы добавить в избранное зарегистрируйтесь</button>
+        {% endif %}
+    </form>
+    </li>
     <hr>
 
 {% endfor %}
